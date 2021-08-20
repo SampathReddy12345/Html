@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Web Page</title>
+
+    <style type="text/css">
+    body {
+        color: red;
+    }
+    </style>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("name");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+<body>
+    <p>This is a sample html document.</p>
+    This javascript function will capitalize my name:
+   <p> Enter your name: <input type="text" id="name" onchange="myFunction()"></p>
+   <!-- Line breaks- this takes less space compare to paragraph  -->
+   <p>This is Line 1.<br>This is Line 2.</p>
+   <!-- Non-breaking space -->
+   <p>This is Line 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is Line 4.</p>
+   <!-- Header tags -->
+   <h1>These are Headers sizes</h1>
+   <h2>These are Headers sizes</h2>
+   <h3>These are Headers sizes</h3>
+   <h4>These are Headers sizes</h4>
+   <h5>These are Headers sizes</h5>
+   <h6>These are Headers sizes</h6>
+   <strong>Bold text</strong><br>
+   <em>Italic Text</em><br>
+   <u>Underlined Text</u><br>
+   <strike>Strike Through</strike><br>
+   <!-- Inline text formatting= It is an old way of formmatting,where Use the Css instead -->
+   <h4><font face="arial" size="22" color="blue">Header fonts</font></h4>
+<!-- Unordered Lists -->
+<h3>My favourite Sports</h3>
+<ul>
+    <li>Cricket</li>
+    <li>Badminton</li>
+    <li>Chess</li>
+    <li>Carroms</li>
+</ul>
+<!-- Ordered Lists -->
+<h3>My favourite Dams</h3>
+<ol>
+    <li>Nagarjuna Sagar</li>
+    <li>Srisailam</li>
+    <li>Singur</li>
+    <li>polavaram</li>
+</ol>
+<!-- image insertion -->
+<p>
+    <!-- relative file refernce=internal directory-->
+    <img src="Dragonball.jpg" width="333" height="250">
+    <img src="legalBGI.png" width="333" height="250">
+    <img src="summer.jpg" width="333" height="250">
+
+    <!--absolute file reference=external link-->
+    <img src="http://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images-6.jpg" width="333" height="250">
+</p>
+</body>
+</html>
